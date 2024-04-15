@@ -1,0 +1,13 @@
+.calculatorContainer{
+    max-width: 300px;
+    margin: 30px auto 0;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 15px;
+}
+.buttonContainer{
+    @apply flex flex-wrap justify-between mt-4 ;
+}
+.buttonContainer button{
+    @apply bg-emerald-500 size-[60px] inline-flex items-center justify-center tracking-wide align-middle duration-500 text-2xl font-medium text-center rounded-lg text-white mx-auto shadow-sm dark:shadow-gray-800 mb-2;
+}
